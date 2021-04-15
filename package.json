@@ -1,0 +1,24 @@
+{
+  "name": "elarturo.mx",
+  "version": "1.0.0",
+  "description": "Sitio Web elarturo.mx by PICE Software .inc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "picesoftware",
+    "elarturo",
+    "siteweb",
+    "arte"
+  ],
+  "author": "Jesús González Memije",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "hover.css": "^2.3.2",
+    "jquery": "^3.6.0",
+    "swiper": "^6.5.6"
+  }
+}
