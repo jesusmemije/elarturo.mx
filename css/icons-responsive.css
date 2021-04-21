@@ -1,0 +1,446 @@
+.pasado-personaje {
+  top: 60%;
+  left: 50%;
+}
+.pasado-personaje img {
+  width: 150px;
+}
+
+.pasado-guitarra {
+  top: 44%;
+  left: 40%;
+}
+.pasado-guitarra img {
+  width: 80px;
+}
+
+.pasado-poster {
+  top: 40%;
+  left: 60%;
+}
+.pasado-poster img {
+  width: 120px;
+}
+
+.pasado-amplificador {
+  top: 85%;
+  left: 40%;
+}
+.pasado-amplificador img {
+  width: 100px;
+}
+
+.pasado-coyote {
+  top: 85%;
+  left: 60%;
+}
+.pasado-coyote img {
+  width: 100px;
+}
+
+.easy-cuerpo {
+  top: 62%;
+  left: 53%;
+}
+.easy-cuerpo img {
+  width: 250px;
+}
+
+.easy-cel {
+  top: 50%;
+  left: 36%;
+}
+.easy-cel img {
+  width: 80px;
+}
+
+.easy-hojas {
+  top: 46%;
+  left: 47%;
+}
+.easy-hojas img {
+  width: 75px;
+}
+
+.easy-coyote {
+  top: 46%;
+  left: 62%;
+}
+.easy-coyote img {
+  width: 100px;
+}
+
+.yque-personaje {
+  top: 62%;
+  left: 50%;
+}
+.yque-personaje img {
+  width: 350px;
+}
+
+.yque-cuervo {
+  top: 68%;
+  left: 33%;
+}
+.yque-cuervo img {
+  width: 160px;
+}
+
+.yque-coyote {
+  top: 48%;
+  left: 55%;
+}
+.yque-coyote img {
+  width: 80px;
+}
+
+.yque-lata {
+  top: 88%;
+  left: 62%;
+}
+.yque-lata img {
+  width: 130px;
+}
+
+.empezaba-cuerpo {
+  top: 75%;
+  left: 44%;
+}
+.empezaba-cuerpo img {
+  width: 500px;
+}
+
+.empezaba-cenicero {
+  top: 50%;
+  left: 50%;
+}
+.empezaba-cenicero img {
+  width: 230px;
+}
+
+.empezaba-basura {
+  top: 58%;
+  left: 52%;
+}
+.empezaba-basura img {
+  width: 140px;
+}
+
+.empezaba-coyote {
+  top: 50%;
+  left: 62%;
+}
+.empezaba-coyote img {
+  width: 80px;
+}
+
+.empezaba-libreta {
+  top: 80%;
+  left: 58%;
+}
+.empezaba-libreta img {
+  width: 190px;
+}
+
+.presente-productor {
+  top: 68%;
+  left: 50%;
+}
+.presente-productor img {
+  width: 250px;
+}
+
+.presente-guitarra {
+  top: 22%;
+  left: 50%;
+}
+.presente-guitarra img {
+  width: 130px;
+}
+
+.presente-coyote {
+  top: 35%;
+  left: 40%;
+}
+.presente-coyote img {
+  width: 120px;
+}
+
+.presente-corazon {
+  top: 40%;
+  left: 60%;
+}
+.presente-corazon img {
+  width: 100px;
+}
+
+.presente-nota {
+  top: 58%;
+  left: 35%;
+}
+.presente-nota img {
+  width: 100px;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .pasado-guitarra {
+    left: 20%;
+  }
+  .pasado-poster {
+    left: 80%;
+  }
+  .pasado-amplificador {
+    left: 20%;
+  }
+  .pasado-coyote {
+    left: 80%;
+  }
+
+  .easy-cuerpo {
+    left: 56%;
+  }
+  .easy-cel {
+    left: 16%;
+  }
+  .easy-hojas {
+    left: 44%;
+  }
+  .easy-coyote {
+    left: 82%;
+  }
+
+  .yque-cuervo {
+    left: 10%;
+  }
+  .yque-coyote {
+    top: 52%;
+    left: 75%;
+  }
+  .yque-lata {
+    left: 85%;
+  }
+
+  .empezaba-cuerpo {
+    top: 86%;
+    left: 40%;
+  }
+  .empezaba-cuerpo img {
+    width: 350px;
+  }
+  .empezaba-cenicero {
+    top: 50%;
+    left: 50%;
+  }
+  .empezaba-basura {
+    left: 58%;
+  }
+  .empezaba-coyote {
+    left: 85%;
+  }
+  .empezaba-libreta {
+    left: 85%;
+    top: 85%;
+  }
+  .empezaba-libreta img {
+    width: 140px;
+  }
+
+  .presente-coyote {
+    left: 20%;
+  }
+  .presente-corazon {
+    left: 80%;
+  }
+  .presente-nota {
+    left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .pasado-personaje img {
+    width: 180px;
+  }
+
+  .pasado-guitarra img {
+    width: 95px;
+  }
+
+  .pasado-poster img {
+    width: 130px;
+  }
+
+  .pasado-amplificador img {
+    width: 115px;
+  }
+
+  .pasado-coyote img {
+    width: 115px;
+  }
+
+  .easy-cuerpo img {
+    width: 280px;
+  }
+
+  .easy-cel img {
+    width: 100px;
+  }
+
+  .easy-hojas img {
+    width: 90px;
+  }
+
+  .easy-coyote img {
+    width: 120px;
+  }
+
+  .yque-personaje img {
+    width: 400px;
+  }
+
+  .yque-cuervo img {
+    width: 180px;
+  }
+
+  .yque-coyote img {
+    width: 100px;
+  }
+
+  .yque-lata img {
+    width: 150px;
+  }
+
+  .empezaba-cuerpo img {
+    width: 550px;
+  }
+
+  .empezaba-cenicero img {
+    width: 260px;
+  }
+
+  .empezaba-basura img {
+    width: 150px;
+  }
+
+  .empezaba-coyote img {
+    width: 90px;
+  }
+
+  .empezaba-libreta img {
+    width: 210px;
+  }
+
+  .presente-productor img {
+    width: 280px;
+  }
+
+  .presente-guitarra img {
+    width: 140px;
+  }
+
+  .presente-coyote img {
+    width: 135px;
+  }
+
+  .presente-corazon img {
+    width: 110px;
+  }
+
+  .presente-nota img {
+    width: 110px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .pasado-personaje img {
+    width: 250px;
+  }
+
+  .pasado-guitarra img {
+    width: 110px;
+  }
+
+  .pasado-poster img {
+    width: 140px;
+  }
+
+  .pasado-amplificador img {
+    width: 130px;
+  }
+
+  .pasado-coyote img {
+    width: 130px;
+  }
+
+  .easy-cuerpo img {
+    width: 340px;
+  }
+
+  .easy-cel img {
+    width: 120px;
+  }
+
+  .easy-hojas img {
+    width: 115px;
+  }
+
+  .easy-coyote img {
+    width: 140px;
+  }
+
+  .yque-personaje img {
+    width: 500px;
+  }
+
+  .yque-cuervo img {
+    width: 220px;
+  }
+
+  .yque-coyote img {
+    width: 120px;
+  }
+
+  .yque-lata img {
+    width: 170px;
+  }
+
+  .empezaba-cuerpo img {
+    width: 700px;
+  }
+
+  .empezaba-cenicero img {
+    width: 300px;
+  }
+
+  .empezaba-basura img {
+    width: 180px;
+  }
+
+  .empezaba-coyote img {
+    width: 120px;
+  }
+
+  .empezaba-libreta img {
+    width: 250px;
+  }
+
+  .presente-productor img {
+    width: 380px;
+  }
+
+  .presente-guitarra img {
+    width: 180px;
+  }
+
+  .presente-coyote img {
+    width: 165px;
+  }
+
+  .presente-corazon img {
+    width: 150px;
+  }
+
+  .presente-nota img {
+    width: 150px;
+  }
+}

@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html>
+ <html lang="es">
 
  <head>
  	<meta charset="utf-8">
@@ -12,6 +12,8 @@
  	<link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
  	<!-- Custom styles -->
  	<link rel="stylesheet" href="css/styles.css">
+ 	<link rel="stylesheet" href="css/icons-responsive.css">
+
  </head>
 
  <body>
@@ -21,83 +23,83 @@
  		<!-- Additional required wrapper -->
  		<div class="swiper-wrapper">
  			<!-- Slides -->
- 			<div class="swiper-slide bg-size-img" style="background-image: url('img/pasado.jpg');">
- 				<div style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/pasado/personaje.png" width="150" class="img-fluid hvr-grow" alt="">
+ 			<div class="swiper-slide bg-size-img bg-pasado">
+ 				<div class="img-config-position pasado-personaje">
+ 					<img src="icons/pasado/personaje.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 44%; left: 40%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/pasado/guitarra.png" width="80" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position pasado-guitarra">
+ 					<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 40%; left: 60%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/pasado/poster.png" width="120" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position pasado-poster">
+ 					<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 85%; left: 40%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/pasado/amplificador.png" width="100" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position pasado-amplificador">
+ 					<img src="icons/pasado/amplificador.png" class="animate__animated animate__heartBeat hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 85%; left: 60%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/pasado/coyote.png" width="100" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 			</div>
- 			<div class="swiper-slide bg-size-img" style="background-image: url('img/vida-mas-easy.jpg');">
- 				<div style="position: absolute; top: 62%; left: 53%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/la-vida-era-mas-easy/cuerpo.png" width="250" class="img-fluid hvr-grow" alt="">
- 				</div>
- 				<div style="position: absolute; top: 50%; left: 36%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/la-vida-era-mas-easy/cel.png" width="80" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 				<div style="position: absolute; top: 46%; left: 47%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/la-vida-era-mas-easy/hojas.png" width="75" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 				<div style="position: absolute; top: 46%; left: 62%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/la-vida-era-mas-easy/coyote.png" width="100" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position pasado-coyote">
+ 					<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
  				</div>
  			</div>
- 			<div class="swiper-slide bg-size-img" style="background-image: url('img/y-que.jpg');">
- 				<div style="position: absolute; top: 62%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/y-que/personaje.png" width="350" class="img-fluid hvr-grow" alt="">
+ 			<div class="swiper-slide bg-size-img bg-vida-easy">
+ 				<div class="img-config-position easy-cuerpo">
+ 					<img src="icons/la-vida-era-mas-easy/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 68%; left: 33%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/y-que/cuervo.png" width="160" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position easy-cel">
+ 					<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 48%; left: 55%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/y-que/coyote.png" width="80" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position easy-hojas">
+ 					<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 88%; left: 62%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/y-que/lata.png" width="130" class="img-fluid hvr-rotate" alt="">
- 				</div>
- 			</div>
- 			<div class="swiper-slide bg-size-img" style="background-image: url('img/apenas-empezaba.jpg');">
- 				<div style="position: absolute; top: 75%; left: 44%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/apenas-empezaba/cuerpo.png" width="500" class="img-fluid hvr-grow" alt="">
- 				</div>
- 				<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/apenas-empezaba/cenicero.png" width="230" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 				<div style="position: absolute; top: 58%; left: 52%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/apenas-empezaba/bote-basura.png" width="140" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 				<div style="position: absolute; top: 50%; left: 62%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/apenas-empezaba/coyote.png" width="80" class="img-fluid hvr-buzz-out" alt="">
- 				</div>
- 				<div style="position: absolute; top: 80%; left: 58%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/apenas-empezaba/libreta.png" width="190" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position easy-coyote">
+ 					<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
  			</div>
- 			<div class="swiper-slide bg-size-img" style="background-image: url('img/presente.jpg');">
- 				<div style="position: absolute; top: 68%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/presente/productor.png" width="250" class="img-fluid hvr-grow" alt="">
+ 			<div class="swiper-slide bg-size-img bg-y-que">
+ 				<div class="img-config-position yque-personaje">
+ 					<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 22%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/presente/guitarra.png" width="130" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position yque-cuervo">
+ 					<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 35%; left: 40%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/presente/coyote.png" width="120" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position yque-coyote">
+ 					<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 40%; left: 60%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/presente/corazon.png" width="100" class="img-fluid hvr-buzz-out" alt="">
+ 				<div class="img-config-position yque-lata">
+ 					<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
  				</div>
- 				<div style="position: absolute; top: 58%; left: 35%; transform: translate(-50%, -50%); cursor: pointer;">
- 					<img src="icons/presente/nota-musical.png" width="100" class="img-fluid hvr-buzz-out" alt="">
+ 			</div>
+ 			<div class="swiper-slide bg-size-img bg-apenas-empezaba">
+ 				<div class="img-config-position empezaba-cuerpo">
+ 					<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position empezaba-cenicero">
+ 					<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position empezaba-basura">
+ 					<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position empezaba-coyote">
+ 					<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position empezaba-libreta">
+ 					<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 			</div>
+ 			<div class="swiper-slide bg-size-img bg-presente">
+ 				<div class="img-config-position presente-productor">
+ 					<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position presente-guitarra">
+ 					<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position presente-coyote">
+ 					<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position presente-corazon">
+ 					<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 				</div>
+ 				<div class="img-config-position presente-nota">
+ 					<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
  			</div>
  		</div>
@@ -112,19 +114,19 @@
 
  		<div class="swiper-icons-social">
  			<a href="https://www.facebook.com/" class="hvr-buzz-out" target="_BLANK">
- 				<img src="icons/redes/fb-icon.png" width="42" class="animate__animated animate__bounce" alt="">
+ 				<img src="icons/redes/fb-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
  			<a href="https://www.instagram.com/" class="hvr-buzz-out" target="_BLANK">
- 				<img src="icons/redes/insta-icon.png" width="42" class="animate__animated animate__bounce" alt="">
+ 				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
  			<a href="https://" class="hvr-buzz-out" target="_BLANK">
- 				<img src="icons/redes/icon.png" width="42" class="animate__animated animate__bounce" alt="">
+ 				<img src="icons/redes/icon.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/" class="hvr-buzz-out" target="_BLANK">
- 				<img src="icons/redes/youtube-icon.png" width="42" class="animate__animated animate__bounce" alt="">
+ 				<img src="icons/redes/youtube-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
  			</a>
  			<a href="https://www.tiktok.com/" class="hvr-buzz-out" target="_BLANK">
- 				<img src="icons/redes/tiktok-icon.png" width="42" class="animate__animated animate__bounce" alt="">
+ 				<img src="icons/redes/tiktok-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
  			</a>
  		</div>
 
