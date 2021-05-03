@@ -33,7 +33,7 @@
 					</a>
  				</div>
  				<div class="img-config-position pasado-poster">
- 					<a href="https://www.dropbox.com/sh/720om7y69cbrkj0/AACMxGYx42QRbI0RgHTAMSL_a?dl=0" target="_BLANK">
+ 					<a href="pasado-infancia.php" target="_BLANK">
 						<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
 					</a>
  				</div>
