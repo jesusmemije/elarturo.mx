@@ -28,78 +28,122 @@
  					<img src="icons/pasado/personaje.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
  				<div class="img-config-position pasado-guitarra">
- 					<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" target="_BLANK">
+						<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position pasado-poster">
- 					<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="https://www.dropbox.com/sh/720om7y69cbrkj0/AACMxGYx42QRbI0RgHTAMSL_a?dl=0" target="_BLANK">
+						<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position pasado-amplificador">
- 					<img src="icons/pasado/amplificador.png" class="animate__animated animate__heartBeat hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="https://www.dropbox.com/sh/o5uni8g6cb2s5d9/AADv-h2VY5Ls6E8Ciz8CZIAta?dl=0" target="_BLANK">
+					 <img src="icons/pasado/amplificador.png" class="animate__animated animate__heartBeat hvr-buzz-out" alt="elarturo.mx">
+					 </a>
  				</div>
  				<div class="img-config-position pasado-coyote">
- 					<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="https://www.youtube.com/watch?v=vEZDk5Pv0jc&ab_channel=ElArturo" target="_BLANK">
+						<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-vida-easy">
  				<div class="img-config-position easy-cuerpo">
- 					<img src="icons/la-vida-era-mas-easy/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+					<a href="https://www.dropbox.com/sh/ognk0bdd70njzik/AADL7H0V0PYXFpDisWaaRSuya?dl=0" target="_BLANK">
+						<img src="icons/la-vida-era-mas-easy/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position easy-cel">
- 					<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="https://www.youtube.com/watch?v=zf57blP4lfE&ab_channel=ElArturo" target="_BLANK">
+						<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position easy-hojas">
- 					<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
+				 	<a href="#">
+						<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position easy-coyote">
- 					<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="https://www.youtube.com/watch?v=slLrimkuvgA" target="_BLANK">
+						<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-y-que">
  				<div class="img-config-position yque-personaje">
- 					<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position yque-cuervo">
- 					<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="https://elarturo.lnk.to/YQue" target="_BLANK">
+						<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position yque-coyote">
- 					<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position yque-lata">
- 					<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
+					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-apenas-empezaba">
  				<div class="img-config-position empezaba-cuerpo">
- 					<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+ 					<a href="https://elarturo.lnk.to/ApenasEmpezaba" target="_BLANK">
+						<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position empezaba-cenicero">
- 					<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+ 						<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position empezaba-basura">
- 					<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position empezaba-coyote">
- 					<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="https://www.youtube.com/watch?v=vOZxtZSE3ek" target="_BLANK">
+						<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position empezaba-libreta">
- 					<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-presente">
  				<div class="img-config-position presente-productor">
- 					<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position presente-guitarra">
- 					<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position presente-coyote">
- 					<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position presente-corazon">
- 					<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  				<div class="img-config-position presente-nota">
- 					<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
+					<a href="#">
+						<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
  				</div>
  			</div>
  		</div>
@@ -113,19 +157,19 @@
  		<img src="icons/linea.png" class="line-pagination" alt="">
 
  		<div class="swiper-icons-social">
- 			<a href="https://www.facebook.com/" class="hvr-buzz-out" target="_BLANK">
+ 			<a href="https://www.facebook.com/elarturoapa" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/fb-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
- 			<a href="https://www.instagram.com/" class="hvr-buzz-out" target="_BLANK">
+ 			<a href="https://www.instagram.com/_elarturo/" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
- 			<a href="https://" class="hvr-buzz-out" target="_BLANK">
+ 			<a href="#" class="hvr-buzz-out">
  				<img src="icons/redes/icon.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
- 			<a href="https://www.youtube.com/" class="hvr-buzz-out" target="_BLANK">
+ 			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/youtube-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
  			</a>
- 			<a href="https://www.tiktok.com/" class="hvr-buzz-out" target="_BLANK">
+ 			<a href="https://www.tiktok.com/@elarturoapa?lang=es" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/tiktok-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
  			</a>
  		</div>
