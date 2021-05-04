@@ -37,7 +37,8 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  background: white;
+  background: #424242;
+  color: white;
 }
 
 .container {

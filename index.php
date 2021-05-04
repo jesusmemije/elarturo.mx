@@ -29,121 +29,126 @@
  				</div>
  				<div class="img-config-position pasado-guitarra">
  					<a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" target="_BLANK">
-						<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 						
+ 					</a>
+					 <!-- Button trigger modal -->
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalSoundCloud">
+					 <img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position pasado-poster">
- 					<a href="pasado-infancia.php" target="_BLANK">
-						<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="pasado-infancia.php">
+ 						<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position pasado-amplificador">
- 					<a href="https://www.dropbox.com/sh/o5uni8g6cb2s5d9/AADv-h2VY5Ls6E8Ciz8CZIAta?dl=0" target="_BLANK">
-					 <img src="icons/pasado/amplificador.png" class="animate__animated animate__heartBeat hvr-buzz-out" alt="elarturo.mx">
-					 </a>
+ 					<a href="pasado-libreta.php">
+ 						<img src="icons/pasado/amplificador.png" class="animate__animated animate__heartBeat hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position pasado-coyote">
- 					<a href="https://www.youtube.com/watch?v=vEZDk5Pv0jc&ab_channel=ElArturo" target="_BLANK">
-						<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<!-- Button trigger modal -->
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTube">
+ 						<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-vida-easy">
  				<div class="img-config-position easy-cuerpo">
-					<a href="https://www.dropbox.com/sh/ognk0bdd70njzik/AADL7H0V0PYXFpDisWaaRSuya?dl=0" target="_BLANK">
-						<img src="icons/la-vida-era-mas-easy/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
-					</a>
+ 					<a href="https://www.dropbox.com/sh/ognk0bdd70njzik/AADL7H0V0PYXFpDisWaaRSuya?dl=0" target="_BLANK">
+ 						<img src="icons/la-vida-era-mas-easy/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position easy-cel">
-					<a href="https://www.youtube.com/watch?v=zf57blP4lfE&ab_channel=ElArturo" target="_BLANK">
-						<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="https://www.youtube.com/watch?v=zf57blP4lfE&ab_channel=ElArturo" target="_BLANK">
+ 						<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position easy-hojas">
-				 	<a href="#">
-						<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position easy-coyote">
  					<a href="https://www.youtube.com/watch?v=slLrimkuvgA" target="_BLANK">
-						<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 						<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-y-que">
  				<div class="img-config-position yque-personaje">
-					<a href="#">
-						<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position yque-cuervo">
-					<a href="https://elarturo.lnk.to/YQue" target="_BLANK">
-						<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="https://elarturo.lnk.to/YQue" target="_BLANK">
+ 						<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position yque-coyote">
-					<a href="#">
-						<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position yque-lata">
-					<a href="#">
-						<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
+ 					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-apenas-empezaba">
  				<div class="img-config-position empezaba-cuerpo">
  					<a href="https://elarturo.lnk.to/ApenasEmpezaba" target="_BLANK">
-						<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
-					</a>
+ 						<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position empezaba-cenicero">
-					<a href="#">
+ 					<a href="#">
  						<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					</a>
  				</div>
  				<div class="img-config-position empezaba-basura">
-					<a href="#">
-						<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position empezaba-coyote">
-					<a href="https://www.youtube.com/watch?v=vOZxtZSE3ek" target="_BLANK">
-						<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="https://www.youtube.com/watch?v=vOZxtZSE3ek" target="_BLANK">
+ 						<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position empezaba-libreta">
-					<a href="#">
-						<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-presente">
  				<div class="img-config-position presente-productor">
-					<a href="#">
-						<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position presente-guitarra">
-					<a href="#">
-						<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position presente-coyote">
-					<a href="#">
-						<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position presente-corazon">
-					<a href="#">
-						<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  				<div class="img-config-position presente-nota">
-					<a href="#">
-						<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
+ 					<a href="#">
+ 						<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
+ 					</a>
  				</div>
  			</div>
  		</div>
@@ -175,6 +180,50 @@
  		</div>
 
  	</div>
+
+ 	<!-- Modal YouTube-->
+ 	<div class="modal fade" id="modalYouTube" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+ 			<div class="modal-content">
+ 				<div class="modal-header">
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - Te deseo lo mejor</strong></h5>
+ 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 						<span aria-hidden="true">&times;</span>
+ 					</button>
+ 				</div>
+ 				<div class="modal-body text-center">
+ 					<iframe id="inlineFrameExample" width="560" height="315" src="https://www.youtube.com/embed/vEZDk5Pv0jc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 				</div>
+ 				<div class="modal-footer">
+ 					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+	 <!-- Modal SoundCloud-->
+ 	<div class="modal fade" id="modalSoundCloud" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+ 			<div class="modal-content">
+ 				<div class="modal-header">
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - Demos &amp; VoiceNotes</strong></h5>
+ 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 						<span aria-hidden="true">&times;</span>
+ 					</button>
+ 				</div>
+ 				<div class="modal-body text-center">
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1248389695%3Fsecret_token%3Ds-GUqVN80vDQo&color=%23fcb8aa&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+						<a href="https://soundcloud.com/user-648210158" title="ElArturo" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo</a> • <a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" title="ElArturo - Demos &amp; VoiceNotes" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo - Demos &amp; VoiceNotes</a>
+					</div>
+ 				</div>
+ 				<div class="modal-footer">
+ 					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
  	<!-- Modules web -->
  	<script src="node_modules/jquery/dist/jquery.min.js"></script>
  	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>El Arturo | Pasado Libreta</title>
+    <title>El Arturo | LVEME Kenia</title>
     <!-- Libraries -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
@@ -32,44 +32,50 @@
             <div class="left child">
                 <div class="gallery">
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/02.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/01.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/04.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/02.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/05.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/03.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/06.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/04.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/07.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/05.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/08.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/06.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/vida-easy-kenia/07.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="right child">
                 <div class="gallery2">
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/02.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/01.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/04.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/02.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/05.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/03.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/06.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/04.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/07.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/05.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-libreta/08.jpg" alt="">
+                        <img src="assets/img/carousel/vida-easy-kenia/06.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/vida-easy-kenia/07.jpg" alt="">
                     </div>
                 </div>
                 <div class="nav-arrows">

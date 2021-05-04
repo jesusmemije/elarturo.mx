@@ -15,13 +15,15 @@
 
 <body>
     <!-- Slider main -->
-    <div class="loading" style="background: #424242; color: white;">
+    <div class="loading">
         <h4 class="h4">Cargando imágenes...</h4>
     </div>
     <div class="container" style="padding-bottom: 0;">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="assets/img/elarturo.png" class="img-fluid" style="background: aliceblue;" alt="">
+                <a href="index.php">
+                    <img src="assets/img/elarturo.png" class="img-fluid" style="background: aliceblue;" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -30,7 +32,7 @@
             <div class="left child">
                 <div class="gallery">
                     <div class="item">
-                        <img src="assets/img/carousel/pasado-infancia/01.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/carousel/pasado-infancia/01.jpg" alt="">
                     </div>
                     <div class="item">
                         <img src="assets/img/carousel/pasado-infancia/02.jpg" alt="">
