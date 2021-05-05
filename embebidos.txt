@@ -1,15 +1,17 @@
 ElArturo - Te Deseo lo Mejor
-
 <iframe width="1190" height="669" src="https://www.youtube.com/embed/vEZDk5Pv0jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ElArturo, Recuerdos 
-
 <iframe width="1190" height="669" src="https://www.youtube.com/embed/zf57blP4lfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ElArturo - La Vida Era Más Easy
-
 <iframe width="1206" height="678" src="https://www.youtube.com/embed/slLrimkuvgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ElArturo - Apenas Empezaba
-
 <iframe width="1190" height="669" src="https://www.youtube.com/embed/vOZxtZSE3ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-SoundCloud
 
+SoundCloud
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1248389695%3Fsecret_token%3Ds-GUqVN80vDQo&color=%23fcb8aa&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-648210158" title="ElArturo" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo</a> • <a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" title="ElArturo - Demos &amp; VoiceNotes" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo - Demos &amp; VoiceNotes</a></div>
+
+SoundCloud 2
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1248389695%3Fsecret_token%3Ds-GUqVN80vDQo&color=%23fcb8aa&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-648210158" title="ElArturo" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo</a> • <a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" title="ElArturo - Demos &amp; VoiceNotes" target="_blank" style="color: #cccccc; text-decoration: none;">ElArturo - Demos &amp; VoiceNotes</a></div>
