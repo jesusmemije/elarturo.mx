@@ -102,6 +102,17 @@ body {
   background-image: url("../img/error.jpg");
 }
 
+.video-responsive {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-responsive {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .bg-pasado {
     background-image: url("../img/movil/pasado.jpg");

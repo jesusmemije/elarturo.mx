@@ -28,9 +28,6 @@
  					<img src="icons/pasado/personaje.png" class="hvr-buzz-out" alt="elarturo.mx">
  				</div>
  				<div class="img-config-position pasado-guitarra">
- 					<a href="https://soundcloud.com/user-648210158/sets/elarturo-demos-voicenotes/s-GUqVN80vDQo" target="_BLANK">
-
- 					</a>
  					<!-- Button trigger modal -->
  					<a href="#" type="button" data-toggle="modal" data-target="#modalSoundCloudVoiceNotes">
  						<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
@@ -48,7 +45,7 @@
  				</div>
  				<div class="img-config-position pasado-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeTeDeseoLoMejor">
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalTeDeseoLoMejor">
  						<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -63,7 +60,7 @@
  				</div>
  				<div class="img-config-position easy-cel">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeRecuerdos">
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalRecuerdos">
  						<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -74,7 +71,7 @@
  				</div>
  				<div class="img-config-position easy-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeLaVidaEraMasEasy">
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalLaVidaEraMasEasy">
  						<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -90,8 +87,7 @@
  					</a>
  				</div>
  				<div class="img-config-position yque-cuervo">
- 					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeYQue">
+ 					<a href="https://elarturo.lnk.to/YQue_">
  						<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -101,31 +97,32 @@
  					</a>
  				</div>
  				<div class="img-config-position yque-lata">
- 					<a href="#">
+ 					<a href="yque-fotos.php">
  						<img src="icons/y-que/lata.png" class="hvr-rotate" alt="elarturo.mx">
  					</a>
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-apenas-empezaba">
  				<div class="img-config-position empezaba-cuerpo">
- 					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeApenasEmpezaba">
+ 					<a href="https://elarturo.lnk.to/ApenasEmpezaba">
  						<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position empezaba-cenicero">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezabaCenicero">
  						<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position empezaba-basura">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezabaBasura">
  						<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position empezaba-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalYouTubeApenasEmpezaba">
+ 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezaba">
  						<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -180,7 +177,7 @@
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
  			<a href="#" class="hvr-buzz-out">
- 				<img src="icons/redes/icon.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
+ 				<img src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/youtube-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
@@ -193,15 +190,15 @@
  	</div>
 
  	<!-- Modal Claim -->
- 	<div class="modal fade" id="modalclaim" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="false" style="cursor: pointer; padding-left: 0px!important;">
- 		<div class="modal-dialog modal-dialog-centered justify-content-center" style="width: 452px;background: black; opacity: 0.8; padding: 80px;">
+ 	<div class="modal fade px-0" id="modalclaim" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="false" style="cursor: pointer; padding-left: 0px!important;">
+ 		<div class="modal-dialog modal-dialog-centered justify-content-center" style="background: black; opacity: 0.8; padding: 80px;">
  			<img src="assets/img/claim.png" class="img-fluid" alt="">
  		</div>
  	</div>
 
  	<!-- ***** PASADO ***** -->
  	<!-- Modal YouTube - Te deseo lo mejor -->
- 	<div class="modal fade" id="modalYouTubeTeDeseoLoMejor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalTeDeseoLoMejor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -211,7 +208,7 @@
  					</button>
  				</div>
  				<div class="modal-body text-center">
- 					<iframe id="inlineFrameExample" width="560" height="315" src="https://www.youtube.com/embed/vEZDk5Pv0jc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/vEZDk5Pv0jc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  				</div>
  				<div class="modal-footer">
  					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
@@ -244,7 +241,7 @@
 
  	<!-- ***** VIDA EASY ***** -->
  	<!-- Modal YouTube - Recuerdos -->
- 	<div class="modal fade" id="modalYouTubeRecuerdos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade" id="modalRecuerdos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -254,7 +251,7 @@
  					</button>
  				</div>
  				<div class="modal-body text-center">
- 					<iframe width="560" height="315" src="https://www.youtube.com/embed/zf57blP4lfE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/zf57blP4lfE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  				</div>
  				<div class="modal-footer">
  					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
@@ -262,7 +259,7 @@
  			</div>
  		</div>
  	</div>
- 	<div class="modal fade" id="modalYouTubeLaVidaEraMasEasy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade" id="modalLaVidaEraMasEasy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -272,7 +269,7 @@
  					</button>
  				</div>
  				<div class="modal-body text-center">
- 					<iframe width="560" height="315" src="https://www.youtube.com/embed/slLrimkuvgA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/slLrimkuvgA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  				</div>
  				<div class="modal-footer">
  					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
@@ -283,28 +280,12 @@
 
  	<!-- ***** Y QUE ***** -->
  	<!-- Modal YouTube - ¿Y qué? -->
- 	<div class="modal fade" id="modalYouTubeYQue" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
- 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
- 			<div class="modal-content">
- 				<div class="modal-header">
- 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - ¿Y qué?</strong></h5>
- 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
- 						<span aria-hidden="true">&times;</span>
- 					</button>
- 				</div>
- 				<div class="modal-body text-center">
- 					<iframe width="560" height="315" src="https://www.youtube.com/embed/1W8CUuWTsog" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 				</div>
- 				<div class="modal-footer">
- 					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
+ 	<!--XXXXXXXXXXXXXXXX-->
+
 
  	<!-- ***** APENAS EMPEZABA ***** -->
  	<!-- Modal YouTube - Apenas Empezaba -->
- 	<div class="modal fade" id="modalYouTubeApenasEmpezaba" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade" id="modalApenasEmpezaba" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -314,7 +295,45 @@
  					</button>
  				</div>
  				<div class="modal-body text-center">
- 					<iframe width="560" height="315" src="https://www.youtube.com/embed/vOZxtZSE3ek" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/vOZxtZSE3ek" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 				</div>
+ 				<div class="modal-footer">
+ 					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<div class="modal fade" id="modalApenasEmpezabaCenicero" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+ 			<div class="modal-content">
+ 				<div class="modal-header">
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - ElArturo - Apenas Empezaba (Live Session)</strong></h5>
+ 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 						<span aria-hidden="true">&times;</span>
+ 					</button>
+ 				</div>
+ 				<div class="modal-body text-center">
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/c9DQ6WwF-80" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 				</div>
+ 				<div class="modal-footer">
+ 					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+ 	<div class="modal fade" id="modalApenasEmpezabaBasura" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+ 			<div class="modal-content">
+ 				<div class="modal-header">
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - ElArturo - Apenas Empezaba (Acordeón)</strong></h5>
+ 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 						<span aria-hidden="true">&times;</span>
+ 					</button>
+ 				</div>
+ 				<div class="modal-body text-center">
+ 					<iframe class="video-responsive" src="https://www.youtube.com/embed/lqE7JXnfdJI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  				</div>
  				<div class="modal-footer">
  					<button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
