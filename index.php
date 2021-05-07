@@ -10,6 +10,7 @@
  	<link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
  	<link rel="stylesheet" href="node_modules/hover.css/css/hover-min.css">
  	<link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
+ 	<link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
  	<!-- Custom styles -->
  	<link rel="stylesheet" href="css/styles.css">
  	<link rel="stylesheet" href="css/icons-responsive.css">
@@ -29,12 +30,13 @@
  				</div>
  				<div class="img-config-position pasado-guitarra">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalSoundCloudVoiceNotes">
- 						<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx">
+ 					<a href="#" data-toggle="modal" data-target="#modalSoundCloudVoiceNotes">
+ 						<img src="icons/pasado/guitarra.png" class="animate__animated animate__swing hvr-buzz-out" alt="elarturo.mx" style="background: transparent;">
  					</a>
  				</div>
  				<div class="img-config-position pasado-poster">
- 					<a href="pasado-infancia.php">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalCarousel">
  						<img src="icons/pasado/poster.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -45,7 +47,7 @@
  				</div>
  				<div class="img-config-position pasado-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalTeDeseoLoMejor">
+ 					<a href="#" data-toggle="modal" data-target="#modalTeDeseoLoMejor">
  						<img src="icons/pasado/coyote.png" class="animate__animated animate__wobble hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -60,7 +62,7 @@
  				</div>
  				<div class="img-config-position easy-cel">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalRecuerdos">
+ 					<a href="#" data-toggle="modal" data-target="#modalRecuerdos">
  						<img src="icons/la-vida-era-mas-easy/cel.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -71,7 +73,7 @@
  				</div>
  				<div class="img-config-position easy-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalLaVidaEraMasEasy">
+ 					<a href="#" data-toggle="modal" data-target="#modalLaVidaEraMasEasy">
  						<img src="icons/la-vida-era-mas-easy/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -110,19 +112,19 @@
  				</div>
  				<div class="img-config-position empezaba-cenicero">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezabaCenicero">
+ 					<a href="#" data-toggle="modal" data-target="#modalApenasEmpezabaCenicero">
  						<img src="icons/apenas-empezaba/cenicero.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position empezaba-basura">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezabaBasura">
+ 					<a href="#" data-toggle="modal" data-target="#modalApenasEmpezabaBasura">
  						<img src="icons/apenas-empezaba/bote-basura.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position empezaba-coyote">
  					<!-- Button trigger modal -->
- 					<a href="#" type="button" data-toggle="modal" data-target="#modalApenasEmpezaba">
+ 					<a href="#" data-toggle="modal" data-target="#modalApenasEmpezaba">
  						<img src="icons/apenas-empezaba/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -177,7 +179,7 @@
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
  			<a href="#" class="hvr-buzz-out">
- 				<img src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
+ 				<img id="icon-elarturo" src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/youtube-icon.png" class="icon-redes animate__animated animate__backInRight" alt="Redes sociales">
@@ -192,7 +194,10 @@
  	<!-- Modal Claim -->
  	<div class="modal fade px-0" id="modalclaim" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="false" style="cursor: pointer; padding-left: 0px!important;">
  		<div class="modal-dialog modal-dialog-centered justify-content-center" style="background: black; opacity: 0.8; padding: 80px;">
- 			<img src="assets/img/claim.png" class="img-fluid" alt="">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 0; right: 12px;">
+ 				<span aria-hidden="true">&times;</span>
+ 			</button>
+			<img src="assets/img/claim.png" class="img-fluid" alt="">
  		</div>
  	</div>
 
@@ -217,7 +222,7 @@
  		</div>
  	</div>
  	<!-- Modal SoundCloud-->
- 	<div class="modal fade" id="modalSoundCloudVoiceNotes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalSoundCloudVoiceNotes" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -241,7 +246,7 @@
 
  	<!-- ***** VIDA EASY ***** -->
  	<!-- Modal YouTube - Recuerdos -->
- 	<div class="modal fade" id="modalRecuerdos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalRecuerdos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -259,7 +264,7 @@
  			</div>
  		</div>
  	</div>
- 	<div class="modal fade" id="modalLaVidaEraMasEasy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalLaVidaEraMasEasy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -285,7 +290,7 @@
 
  	<!-- ***** APENAS EMPEZABA ***** -->
  	<!-- Modal YouTube - Apenas Empezaba -->
- 	<div class="modal fade" id="modalApenasEmpezaba" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalApenasEmpezaba" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
@@ -304,11 +309,11 @@
  		</div>
  	</div>
 
- 	<div class="modal fade" id="modalApenasEmpezabaCenicero" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalApenasEmpezabaCenicero" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
- 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - ElArturo - Apenas Empezaba (Live Session)</strong></h5>
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - Apenas Empezaba (Live Session)</strong></h5>
  					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
  						<span aria-hidden="true">&times;</span>
  					</button>
@@ -323,11 +328,11 @@
  		</div>
  	</div>
 
- 	<div class="modal fade" id="modalApenasEmpezabaBasura" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 	<div class="modal fade px-0" id="modalApenasEmpezabaBasura" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
  		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
  			<div class="modal-content">
  				<div class="modal-header">
- 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - ElArturo - Apenas Empezaba (Acordeón)</strong></h5>
+ 					<h5 class="modal-title text-bold" id="exampleModalLongTitle"><strong>ElArturo - Apenas Empezaba (Acordeón)</strong></h5>
  					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
  						<span aria-hidden="true">&times;</span>
  					</button>
@@ -342,12 +347,83 @@
  		</div>
  	</div>
 
+ 	<div class="modal fade px-0" id="modalCarousel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+ 			<div class="modal-content" style="background: #424242;">
+ 				<div class="modal-body text-center">
+ 					<div class="container">
+ 						<div class="gallery">
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/01.jpg" class="img-fluid" alt="">
+ 							</div>
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/02.jpg" class="img-fluid" alt="">
+ 							</div>
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/03.jpg" class="img-fluid" alt="">
+ 							</div>
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/04.jpg" class="img-fluid" alt="">
+ 							</div>
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/05.jpg" class="img-fluid" alt="">
+ 							</div>
+ 							<div class="item">
+ 								<img src="assets/img/carousel/pasado-infancia/06.jpg" class="img-fluid" alt="">
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
  	<!-- Modules web -->
  	<script src="node_modules/jquery/dist/jquery.min.js"></script>
  	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
  	<script src="node_modules/swiper/swiper-bundle.min.js"></script>
+ 	<script src="node_modules/slick-carousel/slick/slick.js"></script>
+ 	<script src="node_modules/lodash/lodash.min.js"></script>
+
  	<!-- Main js -->
  	<script src="js/app.js"></script>
+
+ 	<script>
+ 		$('.gallery').slick({
+ 			prevArrow: "<svg class='slick-prev' style='cursor:pointer' width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd'><path d='M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z'/></svg>",
+ 			nextArrow: "<svg class='slick-next' style='cursor:pointer' width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd'><path d='M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z'/></svg>",
+ 			centerMode: true,
+ 			centerPadding: '160px',
+ 			arrows: true,
+ 			slidesToShow: 1,
+ 			autoplay: true,
+ 			autoplaySpeed: 1000,
+ 			responsive: [{
+ 					breakpoint: 768,
+ 					settings: {
+ 						arrows: true,
+ 						centerMode: true,
+ 						centerPadding: '40px',
+ 						slidesToShow: 3
+ 					}
+ 				},
+ 				{
+ 					breakpoint: 480,
+ 					settings: {
+ 						arrows: true,
+ 						centerMode: true,
+ 						centerPadding: '40px',
+ 						slidesToShow: 1
+ 					}
+ 				}
+ 			]
+ 		});
+
+ 		$('.carousel-content').slick({
+ 			prevArrow: "<svg width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd'><path d='M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z'/></svg>",
+ 			nextArrow: "<img class='a-right control-c next slick-next' src='../images/shoe_story/arrow-right.png'>"
+ 		});
+ 	</script>
 
  	<!-- Script Modal Claim -->
  	<script>
@@ -355,6 +431,11 @@
  			setTimeout(function() {
  				$("#modalclaim").modal("show");
  			}, 1000);
+
+			 $('#modalclaim').on('hidden.bs.modal', function (e) {
+				$("#icon-elarturo").attr("src","icons/redes/icon.png");
+			})
+
  		});
  	</script>
 
