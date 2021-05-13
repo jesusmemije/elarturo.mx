@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+a {
+  color: transparent;
+}
+
 .swiper-container-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
