@@ -5,7 +5,11 @@ body {
 }
 
 a {
-  color: transparent;
+  color: transparent!important;
+}
+
+a:hover {
+  color: transparent!important;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets,

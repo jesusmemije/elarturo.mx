@@ -139,7 +139,7 @@
  					</a>
  				</div>
  				<div class="img-config-position empezaba-libreta">
- 					<a href="#">
+ 					<a href="https://es.wikipedia.org/wiki/Arturo_(estrella)">
  						<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -161,7 +161,8 @@
  					</a>
  				</div>
  				<div class="img-config-position presente-corazon">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalCarouselPresenteReweb">
  						<img src="icons/presente/corazon.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>

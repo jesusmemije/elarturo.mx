@@ -157,3 +157,31 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade px-0" id="modalCarouselPresenteReweb" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content" style="background: #424242;">
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="gallery">
+                        <div class="item">
+                            <img src="assets/img/carousel/presente-reweb/01.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/carousel/presente-reweb/02.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/carousel/presente-reweb/03.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/carousel/presente-reweb/04.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/carousel/presente-reweb/05.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
