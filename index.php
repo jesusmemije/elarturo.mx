@@ -30,11 +30,11 @@
  			<!-- Slides -->
  			<div class="swiper-slide bg-size-img bg-pasado">
  				<div class="img-config-position pasado-personaje">
-					 <!-- Button trigger modal -->
+ 					<!-- Button trigger modal -->
  					<a href="#" data-toggle="modal" data-target="#modalBiografia">
  						<img src="icons/pasado/personaje.png" class="hvr-buzz-out" alt="elarturo.mx">
-					</a>
- 				</div> 
+ 					</a>
+ 				</div>
  				<div class="img-config-position pasado-guitarra">
  					<!-- Button trigger modal -->
  					<a href="#" data-toggle="modal" data-target="#modalSoundCloudVoiceNotes">
@@ -98,12 +98,13 @@
  					</a>
  				</div>
  				<div class="img-config-position yque-cuervo">
- 					<a href="https://elarturo.lnk.to/YQue_">
+ 					<a href="https://elarturo.lnk.to/YQue_" target="_BLANK">
  						<img src="icons/y-que/cuervo.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
  				<div class="img-config-position yque-coyote">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalYqueCoyote">
  						<img src="icons/y-que/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -116,7 +117,7 @@
  			</div>
  			<div class="swiper-slide bg-size-img bg-apenas-empezaba">
  				<div class="img-config-position empezaba-cuerpo">
- 					<a href="https://elarturo.lnk.to/ApenasEmpezaba">
+ 					<a href="https://elarturo.lnk.to/ApenasEmpezaba" target="_BLANK">
  						<img src="icons/apenas-empezaba/cuerpo.png" class="hvr-grow" alt="elarturo.mx">
  					</a>
  				</div>
@@ -139,7 +140,7 @@
  					</a>
  				</div>
  				<div class="img-config-position empezaba-libreta">
- 					<a href="https://es.wikipedia.org/wiki/Arturo_(estrella)">
+ 					<a href="https://es.wikipedia.org/wiki/Arturo_(estrella)" target="_BLANK">
  						<img src="icons/apenas-empezaba/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -212,7 +213,7 @@
  	<?php include 'include/modals/vida-easy.php' ?>
 
  	<!-- Y QUE -->
- 	<!-- Sin Modals -->
+ 	<?php include 'include/modals/y-que.php' ?>
 
  	<!-- APENAS EMPEZABA -->
  	<?php include 'include/modals/apenas-empezaba.php' ?>
