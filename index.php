@@ -171,7 +171,8 @@
  					</a>
  				</div>
  				<div class="img-config-position presente-nota">
- 					<a href="#">
+					<!-- Button trigger modal -->
+					<a href="#" data-toggle="modal" data-target="#modalNotaMusical">
  						<img src="icons/presente/nota-musical.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -194,7 +195,7 @@
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
 			<!-- Button trigger modal -->
-			<a href="#" class="hvr-buzz-out" data-toggle="modal" data-target="#modalNotaMusical">
+			<a href="#">
  				<img id="icon-elarturo" src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
