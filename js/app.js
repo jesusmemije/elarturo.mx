@@ -3,6 +3,18 @@ setTimeout(function () {
   $("#modalclaim").modal("show");
 }, 1000);
 
+/* ImageMapResponsive */
+$('map').imageMapResize();
+
+/* Abrir modal para evitar text-decoration */
+$("#id_modal_cabeza").click(function () {
+  $('#modalYqueCabeza').modal('show');
+});
+
+$("#id_modal_manos").click(function () {
+  $('#modalYqueManos').modal('show');
+});
+
 /* Initialize Swiper */
 var swiper = new Swiper(".swiper-container", {
   spaceBetween: 30,

@@ -92,10 +92,12 @@
  			<div class="swiper-slide bg-size-img bg-error">
  			</div>
  			<div class="swiper-slide bg-size-img bg-y-que">
- 				<div class="img-config-position yque-personaje">
- 					<a href="#">
- 						<img src="icons/y-que/personaje.png" class="hvr-grow" alt="elarturo.mx">
- 					</a>
+ 				<div class="img-config-position yque-personaje" style="cursor: unset">
+					<img src="icons/y-que/personaje.png" class="hvr-grow" usemap="#image_map">
+					<map name="image_map">
+						<area href="#" id="id_modal_cabeza" title="¿En qué consiste el álbum Y Qué? - ElArturo" coords="230,307 249,297 269,294 284,294 302,292 311,291 318,295 324,308 326,326 329,344 331,357 331,366 327,379 325,391 321,402 314,409 316,413 307,421 301,429 285,436 277,435 272,432 271,422 267,409 261,400 257,393 250,388 245,373 240,363 234,348 231,326 230,307 " shape="polygon">
+						<area href="#" id="id_modal_manos" title="Estudio - ElArturo" coords="159,630 165,619 173,613 187,607 197,608 202,616 203,628 209,637 222,647 237,656 245,657 254,657 263,659 271,657 277,653 285,653 299,655 310,653 317,650 327,644 341,634 340,630 345,627 360,639 368,649 372,657 377,667 373,670 363,670 349,676 343,679 335,684 326,692 319,699 312,707 301,717 295,726 286,730 277,731 265,728 262,737 254,742 243,742 234,739 227,736 222,732 222,725 220,722 212,722 205,717 195,704 191,699 186,692 180,664 169,647 159,630 " shape="polygon">
+					</map>
  				</div>
  				<div class="img-config-position yque-cuervo">
  					<a href="https://elarturo.lnk.to/YQue_" target="_BLANK">
@@ -152,7 +154,8 @@
  					</a>
  				</div>
  				<div class="img-config-position presente-guitarra">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalPresenteGuitarra">
  						<img src="icons/presente/guitarra.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -190,7 +193,8 @@
  			<a href="https://www.instagram.com/_elarturo/" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
- 			<a href="#" class="hvr-buzz-out">
+			<!-- Button trigger modal -->
+			<a href="#" class="hvr-buzz-out" data-toggle="modal" data-target="#modalNotaMusical">
  				<img id="icon-elarturo" src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
@@ -204,7 +208,7 @@
  	</div>
 
  	<!-- CLAIM -->
- 	<?php include 'include/modals/claim.php' ?>
+ 	<?php include 'include/modals/general.php' ?>
 
  	<!-- PASADO -->
  	<?php include 'include/modals/pasado.php' ?>
@@ -218,6 +222,9 @@
  	<!-- APENAS EMPEZABA -->
  	<?php include 'include/modals/apenas-empezaba.php' ?>
 
+	 <!-- PASADO -->
+ 	<?php include 'include/modals/presente.php' ?>
+
  	<!-- CAROUSELS -->
  	<?php include 'include/modals/carousels.php' ?>
 
@@ -227,6 +234,7 @@
  	<script src="node_modules/swiper/swiper-bundle.min.js"></script>
  	<script src="node_modules/slick-carousel/slick/slick.js"></script>
  	<script src="node_modules/lodash/lodash.min.js"></script>
+	<script src="node_modules/image-map-resizer/js/imageMapResizer.min.js"></script>
 
  	<!-- Main js -->
  	<script src="js/app.js"></script>
