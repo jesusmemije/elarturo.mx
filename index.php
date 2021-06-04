@@ -12,6 +12,7 @@
  	<link rel="stylesheet" href="node_modules/hover.css/css/hover-min.css">
  	<link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
  	<link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
  	<!-- Custom styles -->
  	<link rel="stylesheet" href="css/styles.css">
  	<link rel="stylesheet" href="css/icons-responsive.css">
@@ -60,7 +61,7 @@
  					</a>
  				</div>
  			</div>
- 			<div class="swiper-slide bg-size-img bg-error">
+ 			<div class="swiper-slide bg-size-img bg-ya-lo-decidi">
  			</div>
  			<div class="swiper-slide bg-size-img bg-vida-easy">
  				<div class="img-config-position easy-cuerpo">
@@ -87,9 +88,9 @@
  					</a>
  				</div>
  			</div>
- 			<div class="swiper-slide bg-size-img bg-error">
+ 			<div class="swiper-slide bg-size-img bg-mami-perfecta">
  			</div>
- 			<div class="swiper-slide bg-size-img bg-error">
+ 			<div class="swiper-slide bg-size-img bg-ya-valio-madres">
  			</div>
  			<div class="swiper-slide bg-size-img bg-y-que">
  				<div class="img-config-position yque-personaje" style="cursor: unset">
@@ -160,7 +161,8 @@
  					</a>
  				</div>
  				<div class="img-config-position presente-coyote">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalNewsletter">
  						<img src="icons/presente/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -236,6 +238,7 @@
  	<script src="node_modules/slick-carousel/slick/slick.js"></script>
  	<script src="node_modules/lodash/lodash.min.js"></script>
 	<script src="node_modules/image-map-resizer/js/imageMapResizer.min.js"></script>
+	<script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
  	<!-- Main js -->
  	<script src="js/app.js"></script>

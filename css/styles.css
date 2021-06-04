@@ -5,11 +5,11 @@ body {
 }
 
 a {
-  color: transparent!important;
+  color: transparent !important;
 }
 
 a:hover {
-  color: transparent!important;
+  color: transparent !important;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets,
@@ -106,6 +106,15 @@ a:hover {
 .bg-apenas-empezaba {
   background-image: url("../img/apenas-empezaba.jpg");
 }
+.bg-ya-lo-decidi {
+  background-image: url("../img/ya-lo-decidi.jpg");
+}
+.bg-mami-perfecta {
+  background-image: url("../img/mami-perfecta.jpg");
+}
+.bg-ya-valio-madres {
+  background-image: url("../img/ya-valio-madres.jpg");
+}
 .bg-error {
   background-image: url("../img/error.jpg");
 }
@@ -113,6 +122,51 @@ a:hover {
 .video-responsive {
   width: 560px;
   height: 315px;
+}
+
+/*Newsletter*/
+.newsletter {
+  /*padding: 60px 0;*/
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background: #383a42;
+}
+
+.newsletter .content {
+  color: #ebef8f;
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter .content .form-control {
+  /*height: 50px;*/
+  border-color: #ffffff;
+  border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+  /*min-height: 50px;*/
+  border-radius: 0;
+  background: #f8bc95;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.form-control:focus {
+  box-shadow: unset;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: unset;
 }
 
 @media screen and (max-width: 1024px) {
@@ -136,6 +190,15 @@ a:hover {
   }
   .bg-apenas-empezaba {
     background-image: url("../img/movil/apenas-empezaba.jpg");
+  }
+  .bg-ya-lo-decidi {
+    background-image: url("../img/movil/ya-lo-decidi.jpg");
+  }
+  .bg-mami-perfecta {
+    background-image: url("../img/movil/mami-perfecta.jpg");
+  }
+  .bg-ya-valio-madres {
+    background-image: url("../img/movil/ya-valio-madres.jpg");
   }
   .bg-error {
     background-image: url("../img/movil/error.jpg");

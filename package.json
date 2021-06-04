@@ -22,6 +22,7 @@
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.0.16",
     "swiper": "^6.5.6"
   }
 }

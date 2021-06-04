@@ -4,15 +4,15 @@ setTimeout(function () {
 }, 1000);
 
 /* ImageMapResponsive */
-$('map').imageMapResize();
+$("map").imageMapResize();
 
 /* Abrir modal para evitar text-decoration */
 $("#id_modal_cabeza").click(function () {
-  $('#modalYqueCabeza').modal('show');
+  $("#modalYqueCabeza").modal("show");
 });
 
 $("#id_modal_manos").click(function () {
-  $('#modalYqueManos').modal('show');
+  $("#modalYqueManos").modal("show");
 });
 
 /* Initialize Swiper */
@@ -76,3 +76,46 @@ $(".carousel-content").slick({
   nextArrow:
     "<img class='a-right control-c next slick-next' src='../images/shoe_story/arrow-right.png'>",
 });
+
+//Suscription to newsletter
+$("#subscribe-button").on("click", function (event) {
+  event.preventDefault();
+  $("#subscribe-button").prop("disabled", true);
+
+  if ($("#email").val() == "") {
+    Swal.fire({
+      icon: "warning",
+      title: "Upps!",
+      text: "El campo email es requerido",
+    });
+    $("#subscribe-button").prop("disabled", false);
+  } else {
+    jsSubscribe();
+  }
+});
+
+function jsSubscribe() {
+  let params = $("#subscribe-form").serialize();
+  let url = "api/newsletter.php";
+
+  $.post(url, params, function (data) {
+    if (data == "ok") {
+      Swal.fire({
+        icon: "success",
+        title: "¡Bien!",
+        text: "Se ha suscrito al newsletter exitosamente",
+      }).then((result) => {
+        $("#modalNewsletter").modal('hide');
+      });
+    } else {
+      Swal.fire({
+        icon: "error",
+        title: "Upps!",
+        text: data,
+      });
+    }
+    $("#subscribe-form")[0].reset();
+    $("#subscribe-button").prop("disabled", false);
+
+  });
+}
