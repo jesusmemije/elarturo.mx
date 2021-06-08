@@ -77,7 +77,7 @@
  					</a>
  				</div>
  				<div class="img-config-position easy-hojas">
- 					<a href="#">
+ 					<a href="https://carta-natal.es/virgo.php" target="_BLANK">
  						<img src="icons/la-vida-era-mas-easy/hojas.png" class="hvr-buzz-out" alt="elarturo.mx">
  					</a>
  				</div>
@@ -150,7 +150,8 @@
  			</div>
  			<div class="swiper-slide bg-size-img bg-presente">
  				<div class="img-config-position presente-productor">
- 					<a href="#">
+ 					<!-- Button trigger modal -->
+ 					<a href="#" data-toggle="modal" data-target="#modalNewsletterMerch">
  						<img src="icons/presente/productor.png" class="hvr-grow" alt="elarturo.mx">
  					</a>
  				</div>

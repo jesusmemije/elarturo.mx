@@ -47,13 +47,42 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="content">
-                                <h3 style="display: flex; align-items: center;"><strong>NEWSLETTER</strong><img src="assets/img/coyote.png" class="img-fluid" alt=""></h3>
+                                <h3 style="display: flex; align-items: center;"><strong>NEWSLETTER</strong><img src="assets/img/newsletter/coyote.png" class="img-fluid" alt=""></h3>
                                 <h6 style="font-weight: 600;">SUSCRÍBETE PARA RECIBIR INFORMACIÓN Y NOTICIAS DE ELARTURO</h6>
                                 <form action="#" id="subscribe-form" method="POST">
                                     <div class="input-group mt-4">
                                         <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                                         <span class="input-group-btn">
                                             <button id="subscribe-button" class="btn">enviar</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Newsletter -->
+<div class="modal fade px-0" id="modalNewsletterMerch" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <section class="newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="content">
+                                <img src="assets/img/newsletter/merch.png" class="img-fluid" alt="">
+                                <h3><strong>PRÓXIMAMENTE</strong></h3>
+                                <h6 style="font-weight: 600;">SUSCRÍBETE PARA RECIBIR INFORMACIÓN Y NOTICIAS DE ELARTURO</h6>
+                                <form action="#" id="subscribe-form-merch" method="POST">
+                                    <div class="input-group mt-4">
+                                        <input type="email" name="email" id="email-merch" class="form-control" placeholder="Email">
+                                        <span class="input-group-btn">
+                                            <button id="subscribe-button-merch" class="btn">enviar</button>
                                         </span>
                                     </div>
                                 </form>

@@ -78,6 +78,7 @@ $(".carousel-content").slick({
 });
 
 //Suscription to newsletter
+//Newsletter
 $("#subscribe-button").on("click", function (event) {
   event.preventDefault();
   $("#subscribe-button").prop("disabled", true);
@@ -90,12 +91,29 @@ $("#subscribe-button").on("click", function (event) {
     });
     $("#subscribe-button").prop("disabled", false);
   } else {
-    jsSubscribe();
+    jsSubscribe("#subscribe-form", "#subscribe-button", "#modalNewsletter");
   }
 });
 
-function jsSubscribe() {
-  let params = $("#subscribe-form").serialize();
+//Newsletter Merch
+$("#subscribe-button-merch").on("click", function (event) {
+  event.preventDefault();
+  $("#subscribe-button-merch").prop("disabled", true);
+
+  if ($("#email-merch").val() == "") {
+    Swal.fire({
+      icon: "warning",
+      title: "Upps!",
+      text: "El campo email es requerido",
+    });
+    $("#subscribe-button-merch").prop("disabled", false);
+  } else {
+    jsSubscribe("#subscribe-form-merch", "#subscribe-button-merch", "#modalNewsletterMerch");
+  }
+});
+
+function jsSubscribe(subscribeForm, subscribeButton, modalNewsletter) {
+  let params = $(subscribeForm).serialize();
   let url = "api/newsletter.php";
 
   $.post(url, params, function (data) {
@@ -105,7 +123,7 @@ function jsSubscribe() {
         title: "¡Bien!",
         text: "Se ha suscrito al newsletter exitosamente",
       }).then((result) => {
-        $("#modalNewsletter").modal('hide');
+        $(modalNewsletter).modal('hide');
       });
     } else {
       Swal.fire({
@@ -114,8 +132,8 @@ function jsSubscribe() {
         text: data,
       });
     }
-    $("#subscribe-form")[0].reset();
-    $("#subscribe-button").prop("disabled", false);
+    $(subscribeForm)[0].reset();
+    $(subscribeButton).prop("disabled", false);
 
   });
 }

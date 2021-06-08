@@ -1,5 +1,5 @@
 <?php
-require_once("Suscription.php");
+require_once("suscription.php");
 extract($_REQUEST);
 
 $suscription = new Suscription( $email );
