@@ -70,16 +70,7 @@
                             <img src="assets/img/carousel/vida-easy-kenia/01.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/img/carousel/vida-easy-kenia/02.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/carousel/vida-easy-kenia/03.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
                             <img src="assets/img/carousel/vida-easy-kenia/04.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="assets/img/carousel/vida-easy-kenia/05.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="item">
                             <img src="assets/img/carousel/vida-easy-kenia/06.jpg" class="img-fluid" alt="">

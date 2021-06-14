@@ -182,6 +182,30 @@
   width: 100px;
 }
 
+.decidi-personajes {
+  top: 60%;
+  left: 50%;
+}
+.decidi-personajes img {
+  width: 480px;
+}
+
+.decidi-coyote {
+  top: 38%;
+  left: 38%;
+}
+.decidi-coyote img {
+  width: 75px;
+}
+
+.decidi-cel {
+  top: 80%;
+  left: 60%;
+}
+.decidi-cel img {
+  width: 75px;
+}
+
 @media only screen and (max-width: 576px) {
   .pasado-guitarra {
     left: 20%;
@@ -253,6 +277,18 @@
   }
   .presente-nota {
     left: 15%;
+  }
+
+  .decidi-personajes {
+    left: 56%;
+  }
+
+  .decidi-cel {
+    left: 80%;
+  }
+
+  .decidi-coyote {
+    left: 20%;
   }
 }
 

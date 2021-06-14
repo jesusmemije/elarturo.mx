@@ -7,12 +7,20 @@ setTimeout(function () {
 $("map").imageMapResize();
 
 /* Abrir modal para evitar text-decoration */
-$("#id_modal_cabeza").click(function () {
-  $("#modalYqueCabeza").modal("show");
-});
-
 $("#id_modal_manos").click(function () {
   $("#modalYqueManos").modal("show");
+});
+
+$("#id_modal_brazo_decidi").click(function () {
+  $("#modalDecidiBrazo").modal("show");
+});
+
+$("#id_modal_cabeza_decidi").click(function () {
+  $("#modalDecidiCabeza").modal("show");
+});
+
+$("#id_modal_brasier_decidi").click(function () {
+  $("#modalDecidiBrasier").modal("show");
 });
 
 /* Initialize Swiper */
