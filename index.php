@@ -15,7 +15,7 @@
  	<link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
  	<!-- Custom styles -->
  	<link rel="stylesheet" href="css/styles.css?v=1">
- 	<link rel="stylesheet" href="css/icons-responsive.css?v=1">
+ 	<link rel="stylesheet" href="css/icons-responsive.css?v=1.1">
 
  	<!-- Facebook Pixel -->
  	<?php include 'include/facebook-pixel.php' ?>
@@ -109,6 +109,30 @@
  				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-mami-perfecta">
+				<div class="img-config-position perfecta-cuerpo" style="cursor: unset">
+					<img src="icons/mami-perfecta/mano-cel.png" class="hvr-grow" usemap="#image_map_mano_cel">
+					<map name="image_map_mano_cel">
+						<area href="#" id="id_modal_mano_cel" title="Mami perfecta - ElArturo"  coords="144,446 146,280 149,193 155,124 166,103 188,101 222,101 280,103 317,113 330,129 330,221 330,260 333,298 375,302 389,306 395,318 412,343 426,361 437,374 441,416 454,448 466,467 502,497 485,530 467,560 451,586 442,592 431,594 420,591 410,575 400,563 374,554 345,543 321,524 300,504 289,501 279,500 278,513 270,522 255,523 248,510 215,487 178,483 157,479 149,467 146,446 144,446 " shape="polygon">
+					</map>
+ 				</div>
+				<div class="img-config-position perfecta-luna">
+					<img src="icons/mami-perfecta/luna.png" class="hvr-grow" alt="elarturo.mx">
+				</div>
+				<div class="img-config-position perfecta-libreta">
+					<!-- Button trigger modal -->
+					<a href="#" data-toggle="modal" data-target="#modalMamiPerfectaLibreta">
+						<img src="icons/mami-perfecta/libreta.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
+				</div>
+				<div class="img-config-position perfecta-like">
+					<img src="icons/mami-perfecta/like-instagram.png" class="hvr-grow" alt="elarturo.mx">
+				</div>
+				<div class="img-config-position perfecta-coyote">
+					<!-- Button trigger modal -->
+					<a href="#" data-toggle="modal" data-target="#modalMamiPerfectaCoyote">
+						<img src="icons/mami-perfecta/coyote.png" class="hvr-buzz-out" alt="elarturo.mx">
+					</a>
+				</div>
  			</div>
  			<div class="swiper-slide bg-size-img bg-ya-valio-madres">
  			</div>
@@ -252,6 +276,9 @@
  	<!-- PASADO -->
  	<?php include 'include/modals/presente.php' ?>
 
+	<!-- MAMI PERFECTA -->
+ 	<?php include 'include/modals/mami-perfecta.php' ?>
+
  	<!-- CAROUSELS -->
  	<?php include 'include/modals/carousels.php' ?>
 
@@ -265,7 +292,7 @@
  	<script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
  	<!-- Main js -->
- 	<script src="js/app.js?v=1"></script>
+ 	<script src="js/app.js?v=1.1"></script>
 
  </body>
 

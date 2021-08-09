@@ -206,6 +206,46 @@
   width: 75px;
 }
 
+.perfecta-cuerpo {
+  top: 62%;
+  left: 58%;
+}
+.perfecta-cuerpo img {
+  width: 450px;
+}
+
+.perfecta-luna {
+  top: 34%;
+  left: 36%;
+}
+.perfecta-luna img {
+  width: 100px;
+}
+
+.perfecta-libreta {
+  top: 82%;
+  left: 40%;
+}
+.perfecta-libreta img {
+  width: 200px;
+}
+
+.perfecta-like {
+  top: 82%;
+  left: 54%;
+}
+.perfecta-like img {
+  width: 60px;
+}
+
+.perfecta-coyote {
+  top: 64%;
+  left: 62%;
+}
+.perfecta-coyote img {
+  width: 70px;
+}
+
 @media only screen and (max-width: 576px) {
   .pasado-guitarra {
     left: 20%;
@@ -289,6 +329,35 @@
 
   .decidi-coyote {
     left: 20%;
+  }
+
+  .perfecta-luna {
+    left: 12%;
+  }
+  .perfecta-luna img {
+    width: 80px;
+  }
+
+  .perfecta-cuerpo {
+    top: 58%;
+    left: 74%;
+  }
+
+  .perfecta-libreta {
+    top: 76%;
+    left: 30%;
+  }
+  .perfecta-libreta img {
+    width: 200px;
+  }
+
+  .perfecta-coyote {
+    top: 60%;
+    left: 88%;
+  }
+
+  .perfecta-like {
+    left: 64%;
   }
 }
 

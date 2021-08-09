@@ -11,6 +11,10 @@ $("#id_modal_manos").click(function () {
   $("#modalYqueManos").modal("show");
 });
 
+$("#id_modal_mano_cel").click(function () {
+  $("#modalMamiPerfectaManoCel").modal("show");
+});
+
 $("#id_modal_brazo_decidi").click(function () {
   $("#modalDecidiBrazo").modal("show");
 });
