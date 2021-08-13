@@ -20,6 +20,9 @@
  	<!-- Facebook Pixel -->
  	<?php include 'include/facebook-pixel.php' ?>
 
+	<!-- Google Analytics -->
+	<?php include 'include/google-analytics.php' ?>
+
  </head>
 
  <body>
@@ -116,7 +119,10 @@
 					</map>
  				</div>
 				<div class="img-config-position perfecta-luna">
-					<img src="icons/mami-perfecta/luna.png" class="hvr-grow" alt="elarturo.mx">
+					<!-- Button trigger modal -->
+					<a href="#" data-toggle="modal" data-target="#modalMamiPerfectaLuna">
+						<img src="icons/mami-perfecta/luna.png" class="hvr-grow" alt="elarturo.mx">
+					</a>
 				</div>
 				<div class="img-config-position perfecta-libreta">
 					<!-- Button trigger modal -->
@@ -241,8 +247,7 @@
  			<a href="https://www.instagram.com/_elarturo/" class="hvr-buzz-out" target="_BLANK">
  				<img src="icons/redes/insta-icon.png" class="icon-redes animate__animated animate__backInLeft" alt="Redes sociales">
  			</a>
- 			<!-- Button trigger modal -->
- 			<a href="#">
+ 			<a href="https://elarturo.lnk.to/escuchaWE" class="hvr-buzz-out" target="_BLANK">
  				<img id="icon-elarturo" src="icons/redes/musical.png" class="icon-redes animate__animated animate__backInDown" alt="Redes sociales">
  			</a>
  			<a href="https://www.youtube.com/channel/UCQJCchaiKV1SZKzFv-jT7Dw" class="hvr-buzz-out" target="_BLANK">
